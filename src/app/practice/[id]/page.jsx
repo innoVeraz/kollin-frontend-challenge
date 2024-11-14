@@ -1,14 +1,17 @@
-import { getAssignment, getAssignments } from "@/services/assignmentApi";
-import { Assignment } from "../../../components/Assignment";
-
+import assignments from "../../../data/exercises.json";
 import "katex/dist/katex.min.css";
-import { ProgressBar } from "@/components/ProgressBar";
 
-export default async function Page({ params }) {
-  const assignment = await getAssignment(params.id);
-  const assignments = await getAssignments();
+import { ProgressBar } from "@/components/ProgressBar";
+import { Assignment } from "@/components/Assignment";
+
+export default function Page({ params }) {
+  const assignment = assignments.find((x) => x.id === params.id);
+
   const index = assignments.findIndex((x) => x.id === assignment.id);
-  const nextAssignment = assignments[index + 1];
+  const nextAssignment =
+    index >= 0 && index < assignments.length - 1
+      ? assignments[index + 1]
+      : null;
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-[#586FB5]">

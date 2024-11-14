@@ -1,8 +1,5 @@
 "use client";
 
-import next from "next";
-import Link from "next/link";
-
 import Latex from "react-latex-next";
 import { UserAction } from "./UserAction";
 import { AnswerOption } from "./AnswerOption";

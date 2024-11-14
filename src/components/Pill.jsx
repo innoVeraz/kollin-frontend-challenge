@@ -1,4 +1,4 @@
-export const Pill = ({ status, isActive, extractQuestionStatus }) => {
+export const Pill = ({ status, isActive }) => {
   let border = "";
   if (isActive) {
     border = "border-2 border-solid border-blue-500";

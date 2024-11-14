@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
 export default function StartPage() {
-  redirect("/practice/bde984b3-7e98-42ad-8650-bd08d9c64473?hearts=3");
+  redirect("/practice/c827c8c3-433e-4003-96f3-573142ab28ba?hearts=3");
 }

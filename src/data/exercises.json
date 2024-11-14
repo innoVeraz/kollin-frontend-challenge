@@ -1,0 +1,92 @@
+[
+  {
+    "id": "c827c8c3-433e-4003-96f3-573142ab28ba",
+    "difficultyScore": 7,
+    "questionText": "Lös för x i ekvationen $x^2 - 4x + 4 = 0$.",
+    "solutionText": "x = 2",
+    "hints": ["Kom ihåg kvadratkomplettering."],
+    "answerOptions": [
+      { "id": "1", "text": "$x = 0$", "correct": false },
+      { "id": "2", "text": "$x = 2$", "correct": true },
+      { "id": "3", "text": "$x = -2$", "correct": false },
+      { "id": "4", "text": "$x = \\pm 2$", "correct": false }
+    ]
+  },
+  {
+    "id": "1dba0626-fa03-4330-9061-b4ca2224039d",
+    "difficultyScore": 8,
+    "questionText": "Bestäm värdet av $\\int_0^1 x^2 \\, dx$.",
+    "solutionText": "$\\frac{1}{3}$",
+    "hints": ["Använd integralregler för polynom."],
+    "answerOptions": [
+      { "id": "1", "text": "$\\frac{1}{2}$", "correct": false },
+      { "id": "2", "text": "$\\frac{1}{3}$", "correct": true },
+      { "id": "3", "text": "$\\frac{2}{3}$", "correct": false },
+      { "id": "4", "text": "$1$", "correct": false }
+    ]
+  },
+  {
+    "id": "3ad45d7d-ca5a-4785-9d2b-00a7f0c76841",
+    "difficultyScore": 9,
+    "questionText": "Förenkla uttrycket $\\frac{6x^2 - 12x}{3x}$.",
+    "solutionText": "$2x - 4$",
+    "hints": ["Försök att faktorisera täljaren."],
+    "answerOptions": [
+      { "id": "1", "text": "$2x - 4$", "correct": true },
+      { "id": "2", "text": "$2x + 4$", "correct": false },
+      { "id": "3", "text": "$x - 4$", "correct": false },
+      { "id": "4", "text": "$6x - 12$", "correct": false }
+    ]
+  },
+  {
+    "id": "ffabf687-4822-4f4c-b71f-e40f17028c08",
+    "difficultyScore": 7,
+    "questionText": "Lös ekvationen $\\sin(x) = \\frac{1}{2}$ för $0 \\leq x \\leq 2\\pi$.",
+    "solutionText": "$x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$",
+    "hints": ["Tänk på enhetscirkeln."],
+    "answerOptions": [
+      {
+        "id": "1",
+        "text": "$x = \\frac{\\pi}{6}, \\frac{5\\pi}{6}$",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "text": "$x = \\frac{\\pi}{3}, \\frac{2\\pi}{3}$",
+        "correct": false
+      },
+      { "id": "3", "text": "$x = \\pi, \\frac{3\\pi}{2}$", "correct": false },
+      {
+        "id": "4",
+        "text": "$x = \\frac{\\pi}{4}, \\frac{7\\pi}{4}$",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "cbb46d11-b28e-4ac1-898b-ccebb17c5279",
+    "difficultyScore": 9,
+    "questionText": "Derivera funktionen $f(x) = 3x^4 - 5x^2 + x$.",
+    "solutionText": "$f'(x) = 12x^3 - 10x + 1$",
+    "hints": ["Använd derivataregler för varje term."],
+    "answerOptions": [
+      { "id": "1", "text": "$f'(x) = 12x^3 - 10x + 1$", "correct": true },
+      { "id": "2", "text": "$f'(x) = 12x^3 + 10x - 1$", "correct": false },
+      { "id": "3", "text": "$f'(x) = 3x^3 - 5x + 1$", "correct": false },
+      { "id": "4", "text": "$f'(x) = 3x^4 - 5x + 1$", "correct": false }
+    ]
+  },
+  {
+    "id": "b3d463b4-343b-4cc7-b6ac-15e1692f5b75",
+    "difficultyScore": 8,
+    "questionText": "Förenkla uttrycket $\\log_a(a^5) - \\log_a(a^2)$.",
+    "solutionText": "$3$",
+    "hints": ["Använd logaritmregler."],
+    "answerOptions": [
+      { "id": "1", "text": "$5$", "correct": false },
+      { "id": "2", "text": "$2$", "correct": false },
+      { "id": "3", "text": "$3$", "correct": true },
+      { "id": "4", "text": "$1$", "correct": false }
+    ]
+  }
+]
